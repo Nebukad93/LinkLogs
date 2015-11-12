@@ -4,7 +4,7 @@ plugin.loadCSS("linklogs");
 
 plugin.onLangLoaded = function()
 {
-    this.addButtonToToolbar("linklogs", theUILang.linkplex, plugin.optionlink+"('" + plugin.url + "')", "help");
+    this.addButtonToToolbar("linklogs", theUILang.linklogs, plugin.optionlink+"('" + plugin.url + "')", "help");
     this.addSeparatorToToolbar("help");
 }
 
